@@ -19,6 +19,7 @@ ul {
 }
 
 a {
+  display: block;
   color: currentColor;
   text-decoration: none;
 }
@@ -31,4 +32,9 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  object-fit: cover;
+}
+
+.hidden {
+  display: none;
 }
